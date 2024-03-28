@@ -1,0 +1,281 @@
+@charset "UTF-8";
+    @font-face{
+    font-family: fonte;
+    src: url(fonte.otf);
+    }
+
+    @keyframes animacao {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.1);
+    }
+        100% {
+        transform: scale(1);
+    }
+    }
+      
+.social-icons {
+    animation: animacao 2s infinite;
+}
+      
+header{
+    background-color: #F06A8A;
+    padding: 80px;
+    text-align: center;
+}
+a{
+    font-family: fonte;
+    width: 80px;
+    margin-top: -20px;
+    float: right;
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 3px 4px #c974af;
+}
+
+.img1{
+    width: 145px;
+    margin-top: -70px;
+    float: left;
+    border-radius: 78px;
+    margin-left: -50px;
+   }
+
+   .img2 {
+    border: 2px solid #c974af;
+    border-radius: 30px;
+    width: 350px;
+    margin-top: 5px;
+    float: right;
+   }
+
+.titulo{
+    border: 2px solid #F06A8A;
+    text-align: left;
+    padding: 60px;
+    display: flex;
+    align-items: left;
+    margin-left: 40px;
+    font-family: fonte;
+    color: #e770a2;
+    text-shadow: 3px 2px 1px  #dadd17;
+    float: left;
+}
+
+p{
+    background-color: #D8A7B1;
+    font-family:'Times New Roman', Times, serif;
+    border: 2px solid #F06A8A;
+    padding: 10px;
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-align: left;
+    float: left;
+}
+
+h1 {
+   background-color: #D8A7B1 ;
+   font-family: fonte;
+   color: #c974af;
+   text-align: center;
+   border: 2px solid #c974af;
+}
+
+h2 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: #c974af; 
+}
+
+h3 {
+    font-family:'Times New Roman', Times, serif;
+    color:#BF3F61 ;
+}
+
+.habilidades {
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+    padding-top: 1%;
+}
+
+
+.habilidades h2 {
+    padding: 10px;
+    font-family: cartonsix;
+    font-size: 2em;
+    color: #F06A8A;
+}
+
+.Habi {
+    font-family: Arial, sans-serif;
+    color: #F06A8A;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+}
+
+.Lidade {
+    background-color: #D8A7B1;
+    border: 2px solid #F06A8A;
+    font-family: Arial, sans-serif;
+    color: #F06A8A;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 5%;
+}
+
+
+.card{
+    width: 300px;
+    border: 1px solid #D96C94;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+margin-top: 0;
+}
+
+.card-content a {
+    display: block;
+    text-align: center;
+    background-color: #c974af;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-content a:hover {
+    background-color: #dadd17;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.bloco {
+    width: 150px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin: 15px;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    display: inline-block;
+    
+}
+
+  .bloco:hover {
+    transform: scale(1.05);
+}
+
+  .bloco p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+footer{
+    padding: 15px;
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: #F06A8A;
+}
+
+.logofooter{
+    padding: 10px;
+    width: 140px;
+    border-radius: 80px;
+}
+
+.social-icons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 930px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.content {
+    height: 2000px;
+}
+
+#section1 {
+    background-color:#D8A7B1;
+}
+
+
+#backToTopButton {
+    background-color:#9F60BF;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 32px;
+    margin-left: -705px;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 40px;
+    }
+
+    .titulo {
+        padding: 40px;
+        text-align: center; 
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 16px;
+        text-align: center; 
+    }
+
+    .habilidades h2 {
+        text-align: center;
+    }
+
+    .Habi,
+    .Lidade {
+        margin-left: 5%; 
+        margin-right: 5%;
+    }
+
+    .social-icons {
+        margin-left: 0;
+    }
+
+    .content {
+        padding: 20px; 
+    }
+}
