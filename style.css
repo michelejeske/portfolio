@@ -78,7 +78,7 @@ p{
 }
 
 h1 {
-   background-color: #D8A7B1 ;
+   background-color: #ffffff;
    font-family: fonte;
    color: #c974af;
    text-align: center;
@@ -86,7 +86,6 @@ h1 {
 }
 
 h2 {
-    background-color: #ffffff;
     align-itens: center;
     justify-content: center;
     text-align: center;
