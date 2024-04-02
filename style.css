@@ -25,6 +25,7 @@ header{
     padding: 80px;
     text-align: center;
 }
+
 a{
     font-family: fonte;
     width: 80px;
@@ -85,6 +86,7 @@ h1 {
 }
 
 h2 {
+    background-color: #ffffff
     align-itens: center;
     justify-content: center;
     text-align: center;
