@@ -85,6 +85,8 @@ h1 {
 }
 
 h2 {
+    align-itens: center;
+    justify-content: center;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     color: #c974af; 
