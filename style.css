@@ -257,7 +257,7 @@ footer{
     display: block;
     width: 60px;
     height: 30px;
-    background-color:  #B7A6F6;
+    background-color: #F06A8A;
     border-radius: 15px;
     cursor: pointer;
     position: relative;
@@ -276,7 +276,7 @@ footer{
 }
 
 .toggle-btn:checked + .toggle-label{
-    background-color: #333;
+    background-color: #F06A8A;
 }
 
 .toggle-btn:checked + .toggle-label::before{
