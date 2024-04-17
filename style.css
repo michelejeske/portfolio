@@ -254,7 +254,7 @@ footer{
 }
 
 .toggle-label {
-    padding: 10px;
+    padding: 20px;
     display: block;
     width: 60px;
     height: 30px;
@@ -265,7 +265,6 @@ footer{
 }
 
 .toggle-label::before{
-    padding: 10px;
     content: '';
     position: absolute;
     width: 28px;
@@ -278,8 +277,7 @@ footer{
 }
 
 .toggle-btn:checked + .toggle-label{
-    padding: 10px;
-    background-color: #F06A8A;
+    background-color: #000000;
 }
 
 .toggle-btn:checked + .toggle-label::before{
