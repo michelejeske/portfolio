@@ -1,3 +1,9 @@
+    const toggleBtn = document.getElementById('toggle');
+    const body = document.body;
+
+    toggleBtn.addEventListener('click', function(){
+    body.classList.toggle("dark-mode")
+    });
 
     document.addEventListener("DOMContentLoaded", function() {
     var backButton = document.getElementById("backToTopButton");
@@ -15,12 +21,4 @@
     else clearInterval(scrollInterval); 
     },15);
 }
-
-const toggleBtn = document.getElementById('toggle');
-const body = document.body;
-
-toggleBtn.addEventListener('click', function(){
-    body.classList.toggle("dark-mode")
-});
-
   
