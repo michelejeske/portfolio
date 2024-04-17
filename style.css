@@ -288,6 +288,15 @@ footer{
     color: #000000;
 }
 
+.dark-mode h1 {
+}
+
+.dark-mode body {
+}
+
+.dark-mode img {
+}
+
 @media only screen and (max-width: 768px) {
     header {
         padding: 40px;
